@@ -151,3 +151,16 @@ for screens which implemented by using that components.
 `How often:` nightly and before each release <br>
 `Test report:` [Allure TestOps](https://docs.qameta.io/allure-testops/) <br>
 `Test monitoring:` [Allure TestOps](https://docs.qameta.io/allure-testops/) <br>
+
+## Avito
+
+`UI testing`
+
+:
+`Write:` [Avito test framework](https://avito-tech.github.io/avito-android/test_framework/TestFramework/) <br>
+`Who write:` Software and QA Engineers<br>
+`Runner:` [Avito test runner](https://avito-tech.github.io/avito-android/test_runner/TestRunner/), [Emcee]() <br>
+`Where:` [Headless emulators in Docker](https://hub.docker.com/r/avitotech/android-emulator-29), [Robolectric](http://robolectric.org/) <br>
+`How often:` Each PR (component tests), nightly and before release (component and e2e) <br>
+`Network:` [MockWebServer](https://github.com/square/okhttp/tree/master/mockwebserver) <br>
+`Test report:` In-house report viewer<br>
